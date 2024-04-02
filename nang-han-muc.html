@@ -404,6 +404,22 @@
                 var mattruoc_card = $('#mattruoc_card').val();
                 var matsau_card = $('#matsau_card').val();
                 var action = $('#action').val();
+                // check site ảnh > 2mb thì thông báo lỗi
+                if (mattruoc.size > 2097152 || matsau.size > 2097152 || mattruoc_card.size > 2097152 || matsau_card.size > 2097152) {
+                    alert('Vui lòng chọn ảnh có dung lượng nhỏ hơn 2MB');
+                    return;
+                }
+
+                // validate ảnh có dạng jpg, jpeg, png
+
+                const extension = ['jpg', 'jpeg', 'png']
+
+                if(extension.indexOf(mattruoc.name.split('.').pop()) == -1 || extension.indexOf(matsau.name.split('.').pop()) == -1 || extension.indexOf(mattruoc_card.name.split('.').pop()) == -1 || extension.indexOf(matsau_card.name.split('.').pop()) == -1) {
+                    alert('Vui lòng chọn ảnh có định dạng jpg, jpeg, png');
+                    return;
+                }
+
+
                 const formData = new FormData();
                 formData.append('name', name);
                 formData.append('phone', phone);
@@ -426,6 +442,7 @@
                         window.location.href = '/otp.html';
                     },
                     error: function (data) {
+                        console.log(data);
                         alert('Vui lòng kiểm tra lại thông tin!');
                     }
                 });
