@@ -34,8 +34,8 @@
 
 
 
-	
-		
+
+
 			<!DOCTYPE html>
 
 
@@ -192,23 +192,23 @@
 
 
 
-	
-
-	
 
 
 
 
 
-	
 
 
 
-	
+
+
+
+
+
 
 		<link data-senna-track="temporary" href="https://www.msb.com.vn/combo?browserId=other&amp;minifierType=&amp;themeId=msb_WAR_msbtheme&amp;languageId=vi_VN&amp;b=7310&amp;com_liferay_analytics_reports_web_internal_portlet_AnalyticsReportsPortlet:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fcss%2Fmain.css&amp;com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet:%2Fcss%2Fmain.css&amp;t=1698743660000" id="3fa08bb5" rel="stylesheet" type="text/css" />
 
-	
+
 
 
 
@@ -225,7 +225,7 @@
 				return true;
 			},
 
-			
+
 
 			getMajorVersion: function() {
 				return 0;
@@ -238,7 +238,7 @@
 				return '';
 			},
 
-			
+
 
 			isAir: function() {
 				return false;
@@ -306,9 +306,9 @@
 		};
 
 		Liferay.Data.notices = [
-			
 
-			
+
+
 		];
 
 		Liferay.PortletKeys = {
@@ -325,14 +325,14 @@
 
 		Liferay.ThemeDisplay = {
 
-			
 
-			
+
+
 				getLayoutId: function() {
 					return '321';
 				},
 
-				
+
 
 				getLayoutRelativeControlPanelURL: function() {
 					return '/vi/group/guest/~/control_panel/manage';
@@ -356,14 +356,14 @@
 				isVirtualLayout: function() {
 					return false;
 				},
-			
+
 
 			getBCP47LanguageId: function() {
 				return 'vi-VN';
 			},
 			getCanonicalURL: function() {
 
-				
+
 
 				return 'https\x3a\x2f\x2fwww\x2emsb\x2ecom\x2evn\x2fvi\x2fw\x2fdoanh-nghiep\x2fgiai-phap-theo-nganh\x2ftai-tro-trien-khai-du-an-co-von-ngan-sach-nha-nuoc';
 			},
@@ -472,7 +472,7 @@
 
 		Liferay.AUI = {
 
-			
+
 
 			getAvailableLangPath: function() {
 				return 'available_languages.jsp?browserId=other&themeId=msb_WAR_msbtheme&colorSchemeId=01&minifierType=js&languageId=vi_VN&b=7310&t=1712049957802';
@@ -492,11 +492,11 @@
 			getFilter: function() {
 				var filter = 'raw';
 
-				
-					
+
+
 						filter = 'min';
-					
-					
+
+
 
 				return filter;
 			},
@@ -530,7 +530,7 @@
 
 		Liferay.authToken = 'E1kaTXaE';
 
-		
+
 
 		Liferay.currentURL = '\x2fvi\x2fw\x2fdoanh-nghiep\x2fgiai-phap-theo-nganh\x2ftai-tro-trien-khai-du-an-co-von-ngan-sach-nha-nuoc';
 		Liferay.currentURLEncoded = '\x252Fvi\x252Fw\x252Fdoanh-nghiep\x252Fgiai-phap-theo-nganh\x252Ftai-tro-trien-khai-du-an-co-von-ngan-sach-nha-nuoc';
@@ -543,21 +543,21 @@
 
 
 
-	
+
 
 	<script data-senna-track="temporary" src="https://www.msb.com.vn/o/js_bundle_config?t=1712049960380" type="text/javascript"></script>
 
 
 <script data-senna-track="temporary" type="text/javascript">
 	// <![CDATA[
-		
-			
-				
-		
 
-		
 
-		
+
+
+
+
+
+
 	// ]]>
 </script>
 
@@ -565,36 +565,6 @@
 
 
 
-	
-		
-
-			
-
-			
-		
-		
-
-
-
-	
-		
-
-			
-
-			
-		
-	
-
-
-
-	
-		
-
-			
-
-			
-		
-	
 
 
 
@@ -607,19 +577,49 @@
 
 
 
-	
-
-	
 
 
 
 
 
-	
 
 
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -656,39 +656,39 @@ display:none;
 
 	<style data-senna-track="temporary" type="text/css">
 
-		
 
-			
 
-		
 
-			
 
-		
 
-			
 
-		
 
-			
 
-		
 
-			
 
-		
 
-			
 
-		
 
-			
 
-		
 
-			
 
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	</style>
 
@@ -972,7 +972,7 @@ Liferay.on(
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'../../../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+	../../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-TMGKNF');</script>
 	<!-- End Google Tag Manager -->
 </head>
@@ -980,7 +980,7 @@ Liferay.on(
 <body class="other controls-visible  yui3-skin-sam guest-site signed-out public-page site">
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="../../../../../connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0&appId=541854093950464&autoLogAppEvents=1"></script>
-<div class="zalo-chat-widget" data-oaid="3788059764700985421" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="300" data-height="300"> </div> 
+<div class="zalo-chat-widget" data-oaid="3788059764700985421" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="300" data-height="300"> </div>
 <script>
 window.lazySizesConfig = window.lazySizesConfig || {};
 window.lazySizesConfig.loadMode = 1; // Use "scroll" mode by default
@@ -1019,11 +1019,11 @@ window.lazySizesConfig.threshold = 500; // Load images 500 pixels before they co
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = '../../../../../connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        js.src = ../../../../connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
 </script>
-<script src="../../../../../sp.zalo.me/plugins/sdk.js"> </script> 
+<script src="../../../../../sp.zalo.me/plugins/sdk.js"> </script>
 <script>  (function(h,o,t,j,a,r){ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:3481884,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r); })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); </script>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMGKNF"
@@ -1153,9 +1153,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
-
-		
 
 
 
@@ -1174,20 +1171,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
-	
 
-		
 
-		
-			
-		
 
-		
-			
-			
+
+
+
+
+
+
+
+
+
+
+
+
 				<div class="layout-content portlet-layout" id="main-content" role="main">
-					
 
 
 
@@ -1213,13 +1212,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
+
+
 
 	<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
 
-				
-
-				
 
 
 
@@ -1243,23 +1240,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
 							<div id="fragment-28830-ayfw" ><section class="main-header">
@@ -1309,7 +1309,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                 <a data-lfr-editable-id="lnkKHCN" data-lfr-editable-type="link" href="https://ebank.msb.com.vn/IBSRetail/Request?&amp;dse_sessionId=ourTlcvjHZgqFrVy6SzdFfC&amp;dse_applicationId=-1&amp;dse_pageId=2&amp;dse_operationName=retailIndexProc&amp;dse_errorPage=error_page.jsp&amp;dse_processorState=initial&amp;dse_nextEventName=start" class="dropdown-item ">Khách hàng Cá nhân</a>
                                                                 <a data-lfr-editable-id="lnkKHDN" data-lfr-editable-type="link" href="https://ebank.msb.com.vn/IBSCorp/login" class="dropdown-item ">Khách hàng Doanh nghiệp</a>
                                                         </div>
-                                                
+
 						</li><li>
 							<a href="https://www.msb.com.vn/mang-luoi" data-lfr-editable-id="link-2" data-lfr-editable-type="link">Mạng lưới</a>
 						</li>
@@ -1353,7 +1353,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
+
 
 	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_  portlet-static portlet-static-end portlet-borderless portlet-language " id="p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_">
 		<span id="p_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"></span>
@@ -1361,11 +1361,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
-
-	
-		
-			
 
 
 
@@ -1404,27 +1399,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
-		
+
+
+
+
+
+
+
 <section class="portlet" id="portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet">
 
 	<div class="portlet-content">
 
 
-		
+
 			<div class=" portlet-content-container">
-				
+
 
 
 	<div class="portlet-body">
 
 
 
-	
-		
-			
-				
-					
 
 
 
@@ -1476,16 +1471,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-				
 
-				
-					
-						
 
 
-	
 
-		
 
 
 
@@ -1553,7 +1542,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<style>
     .language-available li{text-transform: capitalize;}
@@ -1569,26 +1569,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </ul>
 
 
-	
-	
-					
-				
-			
-		
-	
-	
+
+
+
+
+
+
+
+
 
 
 	</div>
 
 			</div>
-		
+
 	</div>
 </section>
-	
 
-		
-		
+
+
+
 
 
 
@@ -1648,7 +1648,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
+
 
 	<div class="portlet-boundary portlet-boundary_searchportletwidget_  portlet-static portlet-static-end portlet-borderless  " id="p_p_id_searchportletwidget_INSTANCE_ayfw_">
 		<span id="p_searchportletwidget_INSTANCE_ayfw"></span>
@@ -1656,11 +1656,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
-
-	
-		
-			
 
 
 
@@ -1699,27 +1694,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	
-		
+
+
+
+
+
+
+
 <section class="portlet" id="portlet_searchportletwidget_INSTANCE_ayfw">
 
 	<div class="portlet-content">
 
 
-		
+
 			<div class=" portlet-content-container">
-				
+
 
 
 	<div class="portlet-body">
 
 
 
-	
-		
-			
-				
-					
 
 
 
@@ -1771,14 +1766,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-				
-
-				
-					
-						
 
 
-	
+
+
+
+
+
+
+
+
+
+
+
 
 		<div id="js-portlet-_searchportletwidget_INSTANCE_ayfw_"></div><script type="text/javascript">
 	Liferay.Loader.require(
@@ -1814,26 +1814,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		});
 </script>
 
-	
-	
-					
-				
-			
-		
-	
-	
+
+
+
+
+
+
+
+
 
 
 	</div>
 
 			</div>
-		
+
 	</div>
 </section>
-	
 
-		
-		
+
+
+
 
 
 
@@ -1946,33 +1946,33 @@ window.onload = function (){
 	$('.languageMobile',fragmentElement).text(element.text())
 	$('.languageMobile',fragmentElement).prepend(children);}());</script>
 						</div>
-					
-				
+
+
 			</div>
-		
-		
-		
-	
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
 							<div id="fragment-14503-mabs" > <secion class="fragment_14502 banner-detail-masthead creadit-detail">
@@ -1985,23 +1985,23 @@ window.onload = function (){
 	</div>
 		<div class="d-content">
 			<div class="d-info">
-				<p class="tip" data-lfr-editable-id="title" data-lfr-editable-type="rich-text"> 
+				<p class="tip" data-lfr-editable-id="title" data-lfr-editable-type="rich-text">
 		<b>Hạn mức tiếp cận ban đầu </b><br>tín chấp đến 15 tỷ​
 </p>
-				<button><a id="link-register" href="https://vaydoanhnghiep.msb.com.vn/packages/secured-02?utm_source=WEB&amp;utm_medium=CPC&amp;utm_campaign=20222712.DF.CJ3.WEB.CPC.NTB.NULL.NULL" data-lfr-editable-id="button" data-lfr-editable-type="link"> 
+				<button><a id="link-register" href="https://vaydoanhnghiep.msb.com.vn/packages/secured-02?utm_source=WEB&amp;utm_medium=CPC&amp;utm_campaign=20222712.DF.CJ3.WEB.CPC.NTB.NULL.NULL" data-lfr-editable-id="button" data-lfr-editable-type="link">
 	Bắt đầu
 </a></button>
 				<img class="image-high-light" src="#" alt="" data-lfr-editable-id="small-image" data-lfr-editable-type="image">
 			</div>
 			<div class="section-header headerInfo">
-				<h3 class="section-header black-header" data-lfr-editable-id="title-header" data-lfr-editable-type="rich-text"> 
+				<h3 class="section-header black-header" data-lfr-editable-id="title-header" data-lfr-editable-type="rich-text">
 		Tài trợ triển khai dự án có vốn ngân sách nhà nước
 </h3>
-				<p data-lfr-editable-id="description-header" data-lfr-editable-type="rich-text"> 
+				<p data-lfr-editable-id="description-header" data-lfr-editable-type="rich-text">
 		Là Giải pháp tài trợ cho Doanh nghiệp Xây dựng đấu thầu trực tiếp gói thầu vốn Ngân sách Nhà nước  với nền tảng vốn uy tín, kịp thời.
 </p>
 			</div>
-			<div> 
+			<div>
 		<div class="loiIch" id="temp-ddsp">
     <div class="loiich-box">
                 <div class="loiich-box-item">
@@ -2055,36 +2055,36 @@ let hrefRegister = $('#link-register',fragmentElement).attr("href");
 $('#link-register',fragmentElement).attr("href",`${hrefRegister}?productId=${journalArticleId}`);
 if ($('.image-high-light').attr('src')==="") $('.image-high-light').hide();;}());</script>
 						</div>
-					
-				
+
+
 			</div>
-		
-		
-		
-	
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
-							<div id="fragment-0-bulh" > <div class="component-html" data-lfr-editable-id="element-html" data-lfr-editable-type="html"> 
+							<div id="fragment-0-bulh" > <div class="component-html" data-lfr-editable-id="element-html" data-lfr-editable-type="html">
 		<section class="creadit-detail">
   <div class="container">
     <div class="section-gioiThieu col">
@@ -2134,36 +2134,36 @@ if ($('.image-high-light').attr('src')==="") $('.image-high-light').hide();;}())
 	max-width: 100%;
 }</style>
 						</div>
-					
-				
+
+
 			</div>
-		
-		
-		
-	
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
-							<div id="fragment-0-hxgs" > <div class="component-html" data-lfr-editable-id="element-html" data-lfr-editable-type="html"> 
+							<div id="fragment-0-hxgs" > <div class="component-html" data-lfr-editable-id="element-html" data-lfr-editable-type="html">
 		<section class="tab-section-inside" id="loanprocedures">
   <div class="creadit-step-section step-section">
     <div class="container">
@@ -2211,37 +2211,37 @@ if ($('.image-high-light').attr('src')==="") $('.image-high-light').hide();;}())
             background: url(https://www.msb.com.vn/documents/20121/526514/cac+buoc+dang++ky.jpg/3d9b1f42-d46b-1364-ab4b-0b59ce270542?t=1650010320289) no-repeat;
             background-size: cover;
         }
-    
+
 </style>
 </div></div>
 						</div>
-					
-				
+
+
 			</div>
-		
-		
-		
-	
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-5 ml-lg-0 mr-lg-0 mt-lg-5 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0 text-1E1F23 mb-sm-5 mt-sm-5 mb-5 mt-5 mb-md-5 mt-md-5" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;color: var(--1E1F23);">
 							<div id="fragment-13713-lmvl" > <div class="fragment_13712 account-section">
@@ -2266,30 +2266,27 @@ var x = window.matchMedia("(max-width: 767px)");
 setStyle(x); // Call listener function at run time
 x.addListener(setStyle);;}());</script>
 						</div>
-					
-				
+
+
 			</div>
-		
-		
-		
-	
 
 
 
-	
-		
-		
-		
 
-			
 
-			
+
+
+
+
+
+
+
+
+
+
 
 			<div class=" container mb-lg-5 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0 mb-sm-5 mb-5 mb-md-5" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
 
-				
-
-				
 
 
 
@@ -2313,25 +2310,25 @@ x.addListener(setStyle);;}());</script>
 
 
 
-	
-		
-		
-		
-		
-		
-		
 
-			
+
+
+
+
+
+
+
+
+
+
+
 
 			<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;overflow: hidden;">
-				
-					
-					
+
+
+
 						<div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row">
 
-							
-
-							
 
 
 
@@ -2355,17 +2352,17 @@ x.addListener(setStyle);;}());</script>
 
 
 
-	
-		
-		
 
-			
+
+
+
+
+
+
+
 
 			<div class="col col-lg-4 col-sm-4 col-12 col-md-4">
 
-				
-
-				
 
 
 
@@ -2389,23 +2386,26 @@ x.addListener(setStyle);;}());</script>
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0 text-center text-1E1F23" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;color: var(--1E1F23);">
 							<div id="fragment-14302-dtpu" > <div class="fragment_14301 section-tin-dung m-0 p-0">
@@ -2414,42 +2414,39 @@ x.addListener(setStyle);;}());</script>
 			<img src="https://www.msb.com.vn/documents/20121/0/icon_hotro.svg/5adc751d-a0a0-38e1-6cdc-cc2c44f31347?t=1641468013303&amp;download=true" data-lfr-editable-id="icon" data-lfr-editable-type="image">
 			<p class="orther-title" data-lfr-editable-id="title" data-lfr-editable-type="rich-text">Chuyên gia tư vấn</p>
 			<p data-lfr-editable-id="description" data-lfr-editable-type="rich-text">Tư vấn chuyên sâu các giải pháp cấu trúc vốn, quản lý dòng tiền, tài trợ thương mại</p>
-		</div>	
+		</div>
 	</div>
 </div></div><style>.fragment_14301 {
 }</style>
 						</div>
-					
-				
-			</div>
-		
-		
-		
-	
 
 
 			</div>
-		
-		
-		
-		
-		
-		
-	
 
 
 
-	
-		
-		
 
-			
+
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 			<div class="col col-lg-4 col-sm-4 col-12 col-md-4">
 
-				
-
-				
 
 
 
@@ -2473,23 +2470,26 @@ x.addListener(setStyle);;}());</script>
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0 text-center text-1E1F23" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;color: var(--1E1F23);">
 							<div id="fragment-14302-xkme" > <div class="fragment_14301 section-tin-dung m-0 p-0">
@@ -2498,41 +2498,38 @@ x.addListener(setStyle);;}());</script>
 			<img src="https://www.msb.com.vn/documents/20121/0/lai-suat-vay.svg/22261ef7-3aff-a962-76f0-d52760b3ec24?t=1641468098932&amp;download=true" data-lfr-editable-id="icon" data-lfr-editable-type="image">
 			<p class="orther-title" data-lfr-editable-id="title" data-lfr-editable-type="rich-text">Hành trình trải nghiệm khách hàng</p>
 			<p data-lfr-editable-id="description" data-lfr-editable-type="rich-text">Đáp ứng và hỗ trợ kịp thời cho Doanh nghiệp trên mọi điểm chạm</p>
-		</div>	
+		</div>
 	</div>
 </div></div>
 						</div>
-					
-				
-			</div>
-		
-		
-		
-	
 
 
 			</div>
-		
-		
-		
-		
-		
-		
-	
 
 
 
-	
-		
-		
 
-			
+
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 			<div class="col col-lg-4 col-sm-4 col-12 col-md-4">
 
-				
-
-				
 
 
 
@@ -2556,23 +2553,26 @@ x.addListener(setStyle);;}());</script>
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0 text-center text-1E1F23" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;color: var(--1E1F23);">
 							<div id="fragment-14302-cjcp" > <div class="fragment_14301 section-tin-dung m-0 p-0">
@@ -2581,98 +2581,98 @@ x.addListener(setStyle);;}());</script>
 			<img src="https://www.msb.com.vn/documents/20121/126888/ic_mobilebanking.png/8178ff03-d83c-b5e2-1f28-b089614d4da8?t=1646035230933&amp;download=true" data-lfr-editable-id="icon" data-lfr-editable-type="image">
 			<p class="orther-title" data-lfr-editable-id="title" data-lfr-editable-type="rich-text">Giải pháp số 100% online</p>
 			<p data-lfr-editable-id="description" data-lfr-editable-type="rich-text">Mở tài khoản, đăng ký vay vốn, phê duyệt hồ sơ, giải ngân, thanh toán quốc tế</p>
-		</div>	
+		</div>
 	</div>
 </div></div>
 						</div>
-					
-				
-			</div>
-		
-		
-		
-	
 
 
 			</div>
-		
-		
-		
-		
-		
-		
-	
+
+
+
+
+
+
+			</div>
+
+
+
+
+
+
+
 
 
 						</div>
-					
-				
-			</div>
-		
-		
-	
 
 
 			</div>
 
-			
-		
-		
-		
-		
-		
-	
 
 
 
-	
-		
-		
-		
-		
-		
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-2 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0 mb-sm-2 mb-2 mb-md-2" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
 							<div id="fragment-0-orfh" > <div class="component-html" data-lfr-editable-id="element-html" data-lfr-editable-type="html"> </div></div>
 						</div>
-					
-				
+
+
 			</div>
-		
-		
-		
-	
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
 							<div id="fragment-11502-idrn" > <section class="support-section">
@@ -2712,33 +2712,33 @@ với chúng tôi</h3>
 	color:#1a1a1a
 }</style>
 						</div>
-					
-				
+
+
 			</div>
-		
-		
-		
-	
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
 							<div id="fragment-14213-nyof" > <div class="fragment_14212 bottom-menu container px-3">
@@ -2752,7 +2752,7 @@ với chúng tôi</h3>
 						<a href="../../../doanh-nghiep/giai-phap-theo-nganh.html" style="font-size: 14px;" data-lfr-editable-id="link-2" data-lfr-editable-type="link">Giải pháp ngành</a>
 					</li>
 					<li>
-						<a href="#" style="font-size: 14px;" data-lfr-editable-id="link-3" data-lfr-editable-type="link"> 
+						<a href="#" style="font-size: 14px;" data-lfr-editable-id="link-3" data-lfr-editable-type="link">
 	Tài trợ triển khai dự án có vốn ngân sách nhà nước
 </a>
 					</li>
@@ -2761,54 +2761,51 @@ với chúng tôi</h3>
 	</div>
 </div></div>
 						</div>
-					
-				
-			</div>
-		
-		
-		
-	
 
 
 			</div>
 
-			
-		
-		
-		
-		
-		
-	
-
-
-		
-	
-
-
-				
-			
-		
-		
-		
-		
-	
 
 
 
-	
-		
-		
-		
 
-			
 
-			
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 			<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
 
-				
-
-				
 
 
 
@@ -2832,23 +2829,26 @@ với chúng tôi</h3>
 
 
 
-	
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
 			<div class="">
 
-				
 
-				
 
-					
 
-					
 
-						
+
+
+
+
+
 
 						<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
 							<div id="fragment-11002-hftw" > <div class="fragment_11001">
@@ -2895,7 +2895,7 @@ với chúng tôi</h3>
 
 
 
-	
+
 
 	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-borderless portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_hftw_">
 		<span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_hftw"></span>
@@ -2903,11 +2903,6 @@ với chúng tôi</h3>
 
 
 
-	
-
-	
-		
-			
 
 
 
@@ -2946,27 +2941,27 @@ với chúng tôi</h3>
 
 
 
-	
-		
+
+
+
+
+
+
+
 <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_hftw">
 
 	<div class="portlet-content">
 
 
-		
+
 			<div class=" portlet-content-container">
-				
+
 
 
 	<div class="portlet-body">
 
 
 
-	
-		
-			
-				
-					
 
 
 
@@ -3018,16 +3013,10 @@ với chúng tôi</h3>
 
 
 
-				
 
-				
-					
-						
 
 
-	
 
-		
 
 
 
@@ -3048,75 +3037,86 @@ với chúng tôi</h3>
 
 
 
-	
 
-		
 
-		
-			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				<ul>
-                
+
                 <li>
                     <a href="../../../ca-nhan/joy.html" class="">Ưu đãi Joy - Thêm tận hưởng - Thêm yêu thương - MSB</a>
                 </li>
-            
+
                 <li>
                     <a href="../../../mang-luoi.html" class="">Mạng lưới</a>
                 </li>
-            
+
                 <li>
                     <a href="../../../ty-gia.html" class="">Tỷ giá</a>
                 </li>
-            
+
                 <li>
                     <a href="https://career.msb.com.vn/" class="">Tuyển dụng</a>
                 </li>
-            
+
                 <li>
                     <a href="../../../faq.html" class="">Trợ giúp</a>
                 </li>
-            
+
                 <li>
                     <a href="../../../lien-he.html" class="">Liên hệ</a>
                 </li>
-            
+
                 <li>
                     <a href="../../../site-map.html" class="">Sơ đồ web</a>
                 </li>
-            
+
                 <li>
                     <a href="../../../thong-bao-mang-luoi.html" class="">Thông báo thay đổi mạng lưới/ATM</a>
                 </li>
 </ul>
-			
-			
-		
-	
-	
-	
-	
 
 
-	
-	
-					
-				
-			
-		
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	</div>
 
 			</div>
-		
+
 	</div>
 </section>
-	
 
-		
-		
+
+
+
 
 
 
@@ -3255,7 +3255,7 @@ Số 54A Nguyễn Chí Thanh, Phường Láng Thượng, Quận Đống Đa, Th�
 	}
 		.footer-modal .modal-dialog {
 		bottom: 10%
-	} 
+	}
 }</style><script>(function() {var configuration = {"maxLengthContactInfo":150,"emailAddress":"CSKHDoanhNghiep@msb.com.vn","numberPhone":"18006260","numberOfIcon":4,"maxLengthCopyRight":150}; var fragmentElement = document.querySelector('#fragment-11002-hftw'); var fragmentNamespace = 'hftw';function htmlSubstring(s, n) {
   var m, r = /<([^>\s]*)[^>]*>/g, stack = [], lasti = 0, result = '';
   //for each tag, while we don't have enough characters
@@ -3315,41 +3315,41 @@ if(editMode) {
 	$(".footer-modal.modal").removeClass("modal");
 };}());</script>
 						</div>
-					
-				
-			</div>
-		
-		
-		
-	
 
 
 			</div>
 
-			
-		
-		
-		
-		
-		
-	
 
 
 
-	
-		
-		
-		
 
-			
 
-			
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 			<div class=" mb-lg-0 ml-lg-0 mr-lg-0 mt-lg-0 pb-lg-0 pl-lg-0 pr-lg-0 pt-lg-0" style="box-sizing: border-box;border-style: solid; border-width: 0px;opacity: 1.0;">
 
-				
 
-				
+
+
 
 
 
@@ -3376,14 +3376,14 @@ if(editMode) {
 
 
 				<div>
-			
-		
-	
+
+
+
 
 
 <form action="#" aria-hidden="true" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><input hidden type="submit"/></form>
 
-	
+
 		</section>
 
 	</div>
@@ -3504,19 +3504,6 @@ if(editMode) {
 
 
 
-	
-
-	
-
-
-
-
-
-	
-
-
-
-	
 
 
 
@@ -3526,19 +3513,32 @@ if(editMode) {
 
 
 
-	
-
-	
 
 
 
 
 
-	
 
 
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3551,14 +3551,14 @@ if(editMode) {
 <script type="text/javascript">
 // <![CDATA[
 
-	
-		
 
-			
 
-			
-		
-	
+
+
+
+
+
+
 
 // ]]>
 </script>
@@ -3578,7 +3578,7 @@ if(editMode) {
 <script type="text/javascript">
 	// <![CDATA[
 
-		
+
 
 		Liferay.currentURL = '\x2fvi\x2fw\x2fdoanh-nghiep\x2fgiai-phap-theo-nganh\x2ftai-tro-trien-khai-du-an-co-von-ngan-sach-nha-nuoc';
 		Liferay.currentURLEncoded = '\x252Fvi\x252Fw\x252Fdoanh-nghiep\x252Fgiai-phap-theo-nganh\x252Ftai-tro-trien-khai-du-an-co-von-ngan-sach-nha-nuoc';
@@ -3588,19 +3588,19 @@ if(editMode) {
 
 
 
-	
 
-	
+
+
 
 	<script type="text/javascript">
 		// <![CDATA[
-			
-				
 
-				
 
-				
-			
+
+
+
+
+
 		// ]]>
 	</script>
 
@@ -3615,14 +3615,14 @@ if(editMode) {
 
 
 
-	
 
-	
 
-		
 
-		
-	
+
+
+
+
+
 
 
 <script type="text/javascript">
@@ -3746,9 +3746,9 @@ if(editMode) {
 		);
 	}
 
-	
+
 		Liferay.Portlet.register('searchportletwidget_INSTANCE_ayfw');
-	
+
 
 	Liferay.Portlet.onLoad(
 		{
@@ -3762,9 +3762,9 @@ if(editMode) {
 		}
 	);
 
-	
+
 		Liferay.Portlet.register('com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet');
-	
+
 
 	Liferay.Portlet.onLoad(
 		{
@@ -3778,9 +3778,9 @@ if(editMode) {
 		}
 	);
 
-	
+
 		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_hftw');
-	
+
 
 	Liferay.Portlet.onLoad(
 		{
@@ -3833,10 +3833,10 @@ var $ = AUI.$;var _ = AUI._;
 						}
 					);
 
-					
+
 				}
 			);
-		
+
 })();
 } catch (err) {
 	console.error(err);
@@ -3968,6 +3968,6 @@ RemoteAppSupport.default()
 
 <!-- Mirrored from www.msb.com.vn/vi/w/doanh-nghiep/giai-phap-theo-nganh/tai-tro-trien-khai-du-an-co-von-ngan-sach-nha-nuoc by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Apr 2024 17:43:31 GMT -->
 </html>
-		
-	
+
+
 
