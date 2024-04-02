@@ -5,7 +5,7 @@
 *	Created on:		Dec 29, 2020
 *	License:		GNU General Public License
 --------------------------------------------------------------------------------------
-*	
+*
 **/
 
 
@@ -13,11 +13,11 @@
 	font-family: iconly;
 	font-style: normal;
 	font-weight: 200;
-	src: url('../../fonts/Iconly-light.html');
-	src: url('../../fonts/Iconly-lightd41d.html?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../../fonts/Iconly-light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../../fonts/Iconly-light-2.html') format('truetype'),
-         url('../../fonts/Iconly-light-3.html#Iconly-light') format('svg');;
+	src: url(../fonts/Iconly-light.html');
+	src: url(../fonts/Iconly-lightd41d.html?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url(../fonts/Iconly-light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url(../fonts/Iconly-light-2.html') format('truetype'),
+         url(../fonts/Iconly-light-3.html#Iconly-light') format('svg');;
 }
 
 
@@ -25,33 +25,33 @@
 	font-family: iconly;
 	font-style: normal;
 	font-weight: normal;
-	src: url('../../fonts/Iconly-Broken.html');
-	src: url('../../fonts/Iconly-Brokend41d.html?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../../fonts/Iconly-Broken-2.html') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../../fonts/Iconly-Broken-3.html') format('truetype'),
-         url('../../fonts/Iconly-Broken-4.html#Iconly-Broken') format('svg');;
+	src: url(../fonts/Iconly-Broken.html');
+	src: url(../fonts/Iconly-Brokend41d.html?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url(../fonts/Iconly-Broken-2.html') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url(../fonts/Iconly-Broken-3.html') format('truetype'),
+         url(../fonts/Iconly-Broken-4.html#Iconly-Broken') format('svg');;
 }
 
 @font-face {
 	font-family: iconly;
 	font-style: normal;
 	font-weight: 700;
-	src: url('../../fonts/Iconly-Bold.html');
-	src: url('../../fonts/Iconly-Boldd41d.html?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../../fonts/Iconly-Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../../fonts/Iconly-Bold-2.html') format('truetype'),
-         url('../../fonts/Iconly-Bold-3.html#Iconly-Bold') format('svg');;
+	src: url(../fonts/Iconly-Bold.html');
+	src: url(../fonts/Iconly-Boldd41d.html?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url(../fonts/Iconly-Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url(../fonts/Iconly-Bold-2.html') format('truetype'),
+         url(../fonts/Iconly-Bold-3.html#Iconly-Bold') format('svg');;
 }
 
 @font-face {
 	font-family: iconly;
 	font-style: normal;
 	font-weight: 900;
-	src: url('../../fonts/Iconly-bulk.html');
-	src: url('../../fonts/Iconly-bulkd41d.html?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../../fonts/Iconly-bulk-2.html') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../../fonts/Iconly-bulk-3.html') format('truetype'),
-         url('../../fonts/Iconly-bulk-4.html#Iconly-bulk') format('svg');;
+	src: url(../fonts/Iconly-bulk.html');
+	src: url(../fonts/Iconly-bulkd41d.html?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url(../fonts/Iconly-bulk-2.html') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url(../fonts/Iconly-bulk-3.html') format('truetype'),
+         url(../fonts/Iconly-bulk-4.html#Iconly-bulk') format('svg');;
 }
 
 [class^="iconly-"], [class*="iconly-"] {

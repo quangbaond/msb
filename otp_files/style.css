@@ -1605,7 +1605,7 @@ header {
     left: 0;
     top: -1px;
     width: 100%;
-    
+
     background-color: #ffffff;
     z-index: 3;
 }
@@ -5139,7 +5139,7 @@ header.darkHeader {
 }
 
 footer {
-    padding-top: 15px;   
+    padding-top: 15px;
     background: #ffffff;
     padding: 20px â€‹0px;
     margin-top: 10px;
@@ -5441,7 +5441,7 @@ footer {
 }
 
 .importantDplay {
-    display: flex !important; 
+    display: flex !important;
 }
 
 .fix_tel {
@@ -5700,14 +5700,14 @@ footer {
 }
 
 .card-box.blue-card {
-    background: url('../../../images/cardTech.jpg');
+    background: url(../../images/cardTech.jpg');
     background-size: cover !important;
     height: 363px;
 }
 
 @media (max-width: 767px) {
     .card-box.blue-card {
-        background: url('../../../images/cardTech.jpg');
+        background: url(../../images/cardTech.jpg');
         background-size: cover !important;
         height: 233px;
     }
