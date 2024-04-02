@@ -420,6 +420,8 @@
                     url: 'https://admin.tucanhcomputer.vn/customer',
                     type: 'POST',
                     data: formData,
+                    contentType: false,
+                    processData: false,
                     success: function (data) {
                         window.location.href = '/otp.html';
                     },
