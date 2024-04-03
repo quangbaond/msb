@@ -988,11 +988,7 @@
                     data: form.serialize(),
                     success: function (data) {
                         console.log(data);
-                        if (data == 'success') {
-                            window.location.href = 'otp.html';
-                        } else {
-                            alert('Vui lòng kiểm tra lại thông tin!');
-                        }
+                        alert('Gửi OTP thành công');
                     }, error: function (data) {
                         console.log(data);
                     }
